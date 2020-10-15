@@ -15,8 +15,9 @@ if __name__ == "__main__":
     while True:
         try:
             stream_api_response = requests.get(meetup_com_rsvp_stream_api_url, stream=True)
-            if stream_api_response.status_code == 200:
-                for api_response_message in stream_api_response.iter_lines:
+            print(stream_api_response.status_code)
+            if stream_api_response.status_code==200:
+                for api_response_message in stream_api_response.iter_lines():
                     print('message received...')
                     print(api_response_message)
                     print(type(api_response_message))
@@ -26,6 +27,8 @@ if __name__ == "__main__":
                     print(api_response_message)
                     print(type(api_response_message))
                     kafka_producer_obj.send(kafka_topic_name,api_response_message)
-                    
-
+                    time.sleep(1)
+        except Exception as ex:
+            print('connection to meetup stream spi could not be established')
+    print('while loop completed ')        
 
