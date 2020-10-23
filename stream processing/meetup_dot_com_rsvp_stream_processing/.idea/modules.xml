@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/meetup_dot_com_rsvp_stream_processing.iml" filepath="$PROJECT_DIR$/.idea/modules/meetup_dot_com_rsvp_stream_processing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/meetup_dot_com_rsvp_stream_processing-build.iml" filepath="$PROJECT_DIR$/.idea/modules/meetup_dot_com_rsvp_stream_processing-build.iml" />
+    </modules>
+  </component>
+</project>
