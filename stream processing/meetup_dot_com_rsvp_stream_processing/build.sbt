@@ -2,7 +2,7 @@ name := "meetup_dot_com_rsvp_stream_processing"
 
 version := "1.0"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.12"
 
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.4"
 
