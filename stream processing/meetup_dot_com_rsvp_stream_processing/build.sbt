@@ -4,7 +4,7 @@ version := "1.0"
 
 scalaVersion := "2.13.4"
 
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.1.0"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.5.1"
 
 // https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10_2.12
 libraryDependencies += "org.apache.spark" %% "spark-sql-kafka-0-10" % "3.1.0"
