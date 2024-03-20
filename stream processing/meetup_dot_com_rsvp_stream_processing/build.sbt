@@ -16,5 +16,5 @@ libraryDependencies += "org.apache.kafka" % "kafka-clients" % "2.7.0"
 libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.23"
 
 // https://mvnrepository.com/artifact/org.mongodb.spark/mongo-spark-connector
-libraryDependencies += "org.mongodb.spark" %% "mongo-spark-connector" % "3.0.1"
+libraryDependencies += "org.mongodb.spark" %% "mongo-spark-connector" % "10.2.2"
 
